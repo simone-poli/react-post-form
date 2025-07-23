@@ -40,6 +40,12 @@ function App() {
       .then(res => res.json())
       .then(data => {
         console.log(data)
+        setFormData({
+          author: '',
+          title: '',
+          body: '',
+          public: false
+        })
       })
 
       .catch(error => console.error('errore', error))
