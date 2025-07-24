@@ -104,7 +104,7 @@ function App() {
                 className="form-check-input"
                 type="checkbox"
                 name='public'
-                value={formData.public}
+                value='public'
                 id="public"
                 onChange={handleFormData}
               />
